@@ -7,7 +7,7 @@ public class Lesson7CodesFromPresentation {
 //        mesele2();
 //        mesele3();
 //        mesele4();
-//        mesele5();
+        mesele5();
 //        mesele6();
 //        mesele7();
     }
@@ -31,7 +31,7 @@ public class Lesson7CodesFromPresentation {
 
         int len = array1.length; //5
 
-        for (int i = 0; i < array1.length; i++) {
+        for (int i = 0; i < len; i++) {
             //     0            5  - 0 - 1 = 4
             //     1            5  - 1 - 1 = 3
             //     2            5  - 2 - 1 = 2

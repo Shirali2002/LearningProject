@@ -82,6 +82,8 @@ public class Lesson7Group2 {
 //            System.out.print(arr[i] + " ");
 //        }
 //    }
+    //girisde verilen  3 5 -7 7 5 -9 -4
+    //netice           3 5 -7 -9 5 7 -4
 
 //    public static void main(String[] args) {
 //        Scanner sc = new Scanner(System.in);
@@ -93,7 +95,7 @@ public class Lesson7Group2 {
 //
 //        for (int i = 0; i < arr.length; i++) {
 //            System.out.printf("%d indeksli elementi daxil edin:\n", i);
-//            arr[i] = sc.nextInt(); // ctrl + z  ctrl + y
+//            arr[i] = sc.nextInt();
 //        }
 //
 //        System.out.println();
