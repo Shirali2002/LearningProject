@@ -1,6 +1,15 @@
 package src.lesson9;
 
+import src.lesson10.group2.Calculator;
+
 public class Lesson9Group2 {
+
+//    public static void main(String[] args) {
+//        Calculator calc1 = new Calculator();
+//        calc1.reng = "qirmizi";
+//        calc1.name;
+//        calc1.sdfjsk = "sdfsfs";
+//    }
 
 //    public static void main(String[] args) {
 //        int a = 123;
