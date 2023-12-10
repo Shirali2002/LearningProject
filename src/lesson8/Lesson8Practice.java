@@ -4,7 +4,59 @@ import java.util.Scanner;
 
 public class Lesson8Practice {
 
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//
+//        int n = scanner.nextInt();
+//        float[] A = new float[n];
+//
+//        for (int i = 0; i < n; i++) {
+//            A[i] = scanner.nextFloat();
+//        }
+//
+//        float min = A[0];
+//        for (int i = 1; i < n; i++) {
+//            if (A[i] < min) {
+//                min = A[i];
+//            }
+//        }
+//
+//        System.out.println(min * 2);
+//    }
+
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
+        int n = scanner.nextInt();
+        int[] a = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            a[i] = scanner.nextInt();
+            if (a[i] < min) {
+                min = a[i];
+            }
+            if (a[i] > max) {
+                max = a[i];
+            }
+        }
+
+        for (int i = 0; i < n; i++) {
+            if (a[i] == min) {
+                System.out.print(max);
+            } else if (a[i] == max) {
+                System.out.print(min);
+            } else {
+                System.out.print(a[i]);
+            }
+            if (i < n - 1) {
+                System.out.print(" ");
+            }
+        }
+    }
+
+    public static void main1(String[] args) {
         Scanner sc = new Scanner(System.in);
         int uz = sc.nextInt();
         int[] arr = new int[uz];
@@ -13,16 +65,17 @@ public class Lesson8Practice {
             arr[i] = sc.nextInt();
         }
 
-        int max = arr[0];
-        int maxIndex = 0;
-        int min = arr[0];
-        int minIndex = 0;
+        int max = Integer.MIN_VALUE;
+        int maxIndex = -1;
+        int min = Integer.MAX_VALUE;
+        int minIndex = -1;
 
-        for (int i = 1; i < arr.length; i++) {
+        for (int i = 0; i < arr.length; i++) {
             if (arr[i] > max) {
                 max = arr[i];
                 maxIndex = i;
-            } else if (arr[i] < min) {
+            }
+            if (arr[i] < min) {
                 min = arr[i];
                 minIndex = i;
             }
