@@ -2,22 +2,22 @@ package src.lesson12.group1;
 
 public class Main {
 
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
+////        Car car = new Car();
+////        car.motor = "motor";
+////        car.teker = "4 dene";
+//
 //        Car car = new Car();
-//        car.motor = "motor";
-//        car.teker = "4 dene";
-
-        Car car = new Car();
-        car.setTeker("4 dene");
-        car.setMotor("best motor");
-        car.setModel("Mercedes");
-
-        System.out.println(car.getMotor());
-        System.out.println(car.getTeker());
-        System.out.println(car.getModel());
-
-
-    }
+//        car.setTeker("4 dene");
+//        car.setMotor("best motor");
+//        car.setModel("Mercedes");
+//
+//        System.out.println(car.getMotor());
+//        System.out.println(car.getTeker());
+//        System.out.println(car.getModel());
+//
+//
+//    }
 
 //    public static void main(String[] args) {
 //        Human human = new Human("shirali", "alihummatov", 25);
