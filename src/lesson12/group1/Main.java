@@ -2,6 +2,12 @@ package src.lesson12.group1;
 
 public class Main {
 
+    public static void main(String[] args) {
+        Human human = new Human("shirali", "ali", 20);
+
+        String addressBasliqi = human.address.addressBasliqi;
+    }
+
 //    public static void main(String[] args) {
 ////        Car car = new Car();
 ////        car.motor = "motor";

@@ -9,7 +9,7 @@ public class Human { // ctrl + .
     public String name;
     public String surname;//alt+insert
     public int age;
-    public Address address;
+    public Address address; // human has a address
 
     public static String hasHead = "yes";
 

@@ -2,7 +2,7 @@ package src.lesson12.group1;
 
 import src.lesson12.group1.Employee;
 
-public class Developer extends Employee {
+public class Developer extends Employee { // Developer is a Employee
 
     public String computerModel;
 
