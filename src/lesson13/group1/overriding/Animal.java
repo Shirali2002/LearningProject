@@ -1,11 +1,16 @@
 package src.lesson13.group1.overriding;
 
-public class Animal extends Object{
+public class Animal {
 
-    private String colour;
+    protected String colour;
+    protected String shape;
 
-    public Animal(String colour) {
+    public Animal(String colour, String shape) {
         this.colour = colour;
+        this.shape = shape;
+    }
+
+    public Animal() {
     }
 
     public String getColour() {

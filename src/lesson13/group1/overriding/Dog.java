@@ -4,8 +4,9 @@ public class Dog extends Animal {
 
     private String foot;  //shift + f6
 
-    public Dog(String colour, String foot) {
-        super(colour);
+    public Dog(String colour, String shape, String foot) {
+//        super.eating();
+        super(colour, shape);
         this.foot = foot;
     }
 

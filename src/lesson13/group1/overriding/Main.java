@@ -3,6 +3,10 @@ package src.lesson13.group1.overriding;
 public class Main {
 
     public static void main(String[] args) {
+        new Animal("yasil", "kvadrat");
+    }
+
+//    public static void main(String[] args) {
 //        Animal animal = new Animal("qirmizi");
 //        animal.eating();
 
@@ -24,14 +28,14 @@ public class Main {
 //        boolean b2 = dog2 instanceof Animal;
 //        System.out.println(b2);
 //
-        Dog dog = new Dog("sari", "4");
-        Bird bird = new Bird("sari", "2");
-
-        System.out.println(isDog(dog));;
-        System.out.println(isDog(bird));;
-
-
-    }
+//        Dog dog = new Dog("sari", "4");
+//        Bird bird = new Bird("sari", "2");
+//
+//        System.out.println(isDog(dog));;
+//        System.out.println(isDog(bird));;
+//
+//
+//    }
 
     public static boolean isDog(Animal animal) {
         if (animal instanceof Dog){

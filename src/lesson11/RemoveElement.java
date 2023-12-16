@@ -6,7 +6,7 @@ public class RemoveElement {
         int[] nums = {3, 2, 2, 3, 4, 5, 6, 3};
         int val = 3;   //{2,2,4,5,6}
         int result = removeElement.removeElement(nums, val);
-        System.out.println("Length of result" + result);
+        System.out.println("Length of result " + result);
         for (int i = 0; i < result; i++) {
             System.out.println(nums[i]);
 
@@ -22,6 +22,8 @@ public class RemoveElement {
                 i++;
             }
         }
+        // 1 2 3 4 3 5
+        // 1 2 4 5
         return i;
     }
 

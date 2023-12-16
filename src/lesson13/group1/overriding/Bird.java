@@ -5,7 +5,7 @@ public class Bird extends Animal {
     private String wing;
 
     public Bird(String colour, String wing) {
-        super(colour);
+        super(colour, "");
         this.wing = wing;
     }
 
