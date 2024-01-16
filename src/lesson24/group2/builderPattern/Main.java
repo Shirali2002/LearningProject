@@ -1,4 +1,4 @@
-package src.lesson24.builderPattern;
+package src.lesson24.group2.builderPattern;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package src.lesson24.singletonPattern;
+package src.lesson24.group2.singletonPattern;
 
 public class SingletonClass {
 
